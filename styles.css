@@ -70,4 +70,8 @@
   .labelAndInput {
     flex-wrap: wrap;
   }
+
+  .label {
+    margin-bottom: 6px;
+  }
 }
