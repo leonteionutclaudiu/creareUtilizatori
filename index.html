@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Inregistrare utilizator</title>
+  </head>
+  <body>
+    <div class="creareUtilizator">
+      <form class="form">
+        <h2 class="title">Creare utilizator</h2>
+        <div class="labelAndInput">
+          <label class="label" for="nume">Nume:</label>
+          <input class="input" type="text" id="nume" name="nume" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="prenume">Prenume:</label>
+          <input class="input" type="text" id="prenume" name="prenume" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="email">Email:</label>
+          <input class="input" type="email" id="email" name="email" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="telefon">Telefon:</label>
+          <input class="input" type="tel" id="telefon" name="telefon" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="companie">Companie:</label>
+          <input class="input" type="text" id="companie" name="companie" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="nrRegCom">Nr.Reg.Com.:</label>
+          <input class="input" type="text" id="nrRegCom" name="nrRegCom" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="cui">CUI:</label>
+          <input class="input" type="text" id="cui" name="cui" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="adresa">Adresa:</label>
+          <input class="input" type="text" id="adresa" name="adresa" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="judet">Judet:</label>
+          <input class="input" type="text" id="judet" name="judet" />
+        </div>
+        <div class="labelAndInput">
+          <label class="label" for="tara">Tara:</label>
+          <input class="input" type="text" id="tara" name="tara" />
+        </div>
+        <p class="privilegii">Privilegii:</p>
+        <label class="label" for="admin" class="checkbox-button">
+          <input
+            class="checkbox"
+            type="checkbox"
+            id="admin"
+            name="privilegii"
+            value="admin"
+          />
+          Is admin?
+        </label>
+        <label class="label" for="activ" class="checkbox-button">
+          <input
+            class="checkbox"
+            type="checkbox"
+            id="activ"
+            name="privilegii"
+            value="activ"
+          />
+          Is activ?
+        </label>
+        <label class="label" for="test" class="checkbox-button">
+          <input
+            class="checkbox"
+            type="checkbox"
+            id="test"
+            name="privilegii"
+            value="test"
+          />
+          Is test?
+        </label>
+        <button class="button" type="submit">Salveaza</button>
+      </form>
+    </div>
+  </body>
+</html>
